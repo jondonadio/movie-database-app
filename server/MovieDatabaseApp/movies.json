@@ -1,0 +1,320 @@
+[
+  {
+    "Title": "Inception",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "2010-07-16",
+    "Rating": 8.8
+  },
+  {
+    "Title": "The Matrix",
+    "Genre": "Action",
+    "ReleaseDate": "1999-03-31",
+    "Rating": 8.7
+  },
+  {
+    "Title": "Interstellar",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "2014-11-07",
+    "Rating": 8.6
+  },
+  {
+    "Title": "The Dark Knight",
+    "Genre": "Action",
+    "ReleaseDate": "2008-07-18",
+    "Rating": 9.0
+  },
+  {
+    "Title": "The Shawshank Redemption",
+    "Genre": "Drama",
+    "ReleaseDate": "1994-09-23",
+    "Rating": 9.3
+  },
+  {
+    "Title": "The Godfather",
+    "Genre": "Crime",
+    "ReleaseDate": "1972-03-24",
+    "Rating": 9.2
+  },
+  {
+    "Title": "Pulp Fiction",
+    "Genre": "Crime",
+    "ReleaseDate": "1994-10-14",
+    "Rating": 8.9
+  },
+  {
+    "Title": "Fight Club",
+    "Genre": "Drama",
+    "ReleaseDate": "1999-10-15",
+    "Rating": 8.8
+  },
+  {
+    "Title": "Forrest Gump",
+    "Genre": "Drama",
+    "ReleaseDate": "1994-07-06",
+    "Rating": 8.8
+  },
+  {
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Genre": "Adventure",
+    "ReleaseDate": "2003-12-17",
+    "Rating": 8.9
+  },
+  {
+    "Title": "The Godfather Part II",
+    "Genre": "Crime",
+    "ReleaseDate": "1974-12-20",
+    "Rating": 9.0
+  },
+  {
+    "Title": "The Dark Knight Rises",
+    "Genre": "Action",
+    "ReleaseDate": "2012-07-20",
+    "Rating": 8.4
+  },
+  {
+    "Title": "Inglourious Basterds",
+    "Genre": "Adventure",
+    "ReleaseDate": "2009-08-21",
+    "Rating": 8.3
+  },
+  {
+    "Title": "The Departed",
+    "Genre": "Crime",
+    "ReleaseDate": "2006-10-06",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Gladiator",
+    "Genre": "Action",
+    "ReleaseDate": "2000-05-05",
+    "Rating": 8.5
+  },
+  {
+    "Title": "The Prestige",
+    "Genre": "Drama",
+    "ReleaseDate": "2006-10-20",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Whiplash",
+    "Genre": "Drama",
+    "ReleaseDate": "2014-10-10",
+    "Rating": 8.5
+  },
+  {
+    "Title": "The Lion King",
+    "Genre": "Animation",
+    "ReleaseDate": "1994-06-24",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Back to the Future",
+    "Genre": "Adventure",
+    "ReleaseDate": "1985-07-03",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Jurassic Park",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "1993-06-11",
+    "Rating": 8.1
+  },
+  {
+    "Title": "Star Wars: Episode IV - A New Hope",
+    "Genre": "Adventure",
+    "ReleaseDate": "1977-05-25",
+    "Rating": 8.6
+  },
+  {
+    "Title": "E.T. the Extra-Terrestrial",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "1982-06-11",
+    "Rating": 7.8
+  },
+  {
+    "Title": "The Silence of the Lambs",
+    "Genre": "Thriller",
+    "ReleaseDate": "1991-02-14",
+    "Rating": 8.6
+  },
+  {
+    "Title": "Casablanca",
+    "Genre": "Drama",
+    "ReleaseDate": "1942-11-26",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Citizen Kane",
+    "Genre": "Drama",
+    "ReleaseDate": "1941-09-05",
+    "Rating": 8.3
+  },
+  {
+    "Title": "Psycho",
+    "Genre": "Thriller",
+    "ReleaseDate": "1960-09-08",
+    "Rating": 8.5
+  },
+  {
+    "Title": "The Usual Suspects",
+    "Genre": "Crime",
+    "ReleaseDate": "1995-08-16",
+    "Rating": 8.5
+  },
+  {
+    "Title": "The Green Mile",
+    "Genre": "Drama",
+    "ReleaseDate": "1999-12-10",
+    "Rating": 8.6
+  },
+  {
+    "Title": "The Intouchables",
+    "Genre": "Comedy",
+    "ReleaseDate": "2011-11-02",
+    "Rating": 8.5
+  },
+  {
+    "Title": "Léon: The Professional",
+    "Genre": "Action",
+    "ReleaseDate": "1994-09-14",
+    "Rating": 8.5
+  },
+  {
+    "Title": "The Grand Budapest Hotel",
+    "Genre": "Comedy",
+    "ReleaseDate": "2014-03-28",
+    "Rating": 8.1
+  },
+  {
+    "Title": "The Revenant",
+    "Genre": "Drama",
+    "ReleaseDate": "2015-12-25",
+    "Rating": 8.0
+  },
+  {
+    "Title": "Mad Max: Fury Road",
+    "Genre": "Action",
+    "ReleaseDate": "2015-05-15",
+    "Rating": 8.1
+  },
+  {
+    "Title": "Arrival",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "2016-11-11",
+    "Rating": 7.9
+  },
+  {
+    "Title": "Her",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "2013-12-18",
+    "Rating": 8.0
+  },
+  {
+    "Title": "Django Unchained",
+    "Genre": "Western",
+    "ReleaseDate": "2012-12-25",
+    "Rating": 8.4
+  },
+  {
+    "Title": "Guardians of the Galaxy",
+    "Genre": "Action",
+    "ReleaseDate": "2014-08-01",
+    "Rating": 8.0
+  },
+  {
+    "Title": "The Wolf of Wall Street",
+    "Genre": "Comedy",
+    "ReleaseDate": "2013-12-25",
+    "Rating": 8.2
+  },
+  {
+    "Title": "The Big Lebowski",
+    "Genre": "Comedy",
+    "ReleaseDate": "1998-03-06",
+    "Rating": 8.1
+  },
+  {
+    "Title": "Joker",
+    "Genre": "Drama",
+    "ReleaseDate": "2019-10-04",
+    "Rating": 8.4
+  },
+  {
+    "Title": "Parasite",
+    "Genre": "Drama",
+    "ReleaseDate": "2019-05-30",
+    "Rating": 8.6
+  },
+  {
+    "Title": "1917",
+    "Genre": "War",
+    "ReleaseDate": "2019-12-25",
+    "Rating": 8.3
+  },
+  {
+    "Title": "Once Upon a Time in Hollywood",
+    "Genre": "Drama",
+    "ReleaseDate": "2019-07-26",
+    "Rating": 7.6
+  },
+  {
+    "Title": "Jojo Rabbit",
+    "Genre": "Comedy",
+    "ReleaseDate": "2019-10-18",
+    "Rating": 7.9
+  },
+  {
+    "Title": "A Beautiful Mind",
+    "Genre": "Drama",
+    "ReleaseDate": "2001-12-21",
+    "Rating": 8.2
+  },
+  {
+    "Title": "The Imitation Game",
+    "Genre": "Biography",
+    "ReleaseDate": "2014-11-28",
+    "Rating": 8.0
+  },
+  {
+    "Title": "The Theory of Everything",
+    "Genre": "Biography",
+    "ReleaseDate": "2014-11-07",
+    "Rating": 7.7
+  },
+  {
+    "Title": "The Social Network",
+    "Genre": "Drama",
+    "ReleaseDate": "2010-10-01",
+    "Rating": 7.7
+  },
+  {
+    "Title": "The Martian",
+    "Genre": "Science Fiction",
+    "ReleaseDate": "2015-10-02",
+    "Rating": 8.0
+  },
+  {
+    "Title": "Into the Wild",
+    "Genre": "Adventure",
+    "ReleaseDate": "2007-09-21",
+    "Rating": 8.1
+  },
+  {
+    "Title": "Black Swan",
+    "Genre": "Drama",
+    "ReleaseDate": "2010-12-03",
+    "Rating": 8.0
+  },
+  {
+    "Title": "The Hunt",
+    "Genre": "Drama",
+    "ReleaseDate": "2012-01-25",
+    "Rating": 8.3
+  },
+  {
+    "Title": "Life of Pi",
+    "Genre": "Adventure",
+    "ReleaseDate": "2012-11-21",
+    "Rating": 7.9
+  }
+]

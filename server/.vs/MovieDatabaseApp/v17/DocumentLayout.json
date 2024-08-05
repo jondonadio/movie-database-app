@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|c:\\users\\jondo\\source\\repos\\moviedatabaseapp\\moviedatabaseapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9CE0176-05F7-4B47-82B4-A8BD32065F26}|MovieDatabaseApp\\MovieDatabaseApp.csproj|solutionrelative:moviedatabaseapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\LoginModel.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:51:29.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:51:01.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:49:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:46:58.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Data\\MovieContext.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Data\\MovieContext.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Data\\MovieContext.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Data\\MovieContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:45:17.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:15:45.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\appsettings.json",
+              "RelativeToolTip": "MovieDatabaseApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T19:15:38.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MovieDatabaseApp\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T19:15:31.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Program.cs",
+              "RelativeDocumentMoniker": "MovieDatabaseApp\\Program.cs",
+              "ToolTip": "C:\\Users\\jondo\\source\\repos\\MovieDatabaseApp\\MovieDatabaseApp\\Program.cs",
+              "RelativeToolTip": "MovieDatabaseApp\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:14:51.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
