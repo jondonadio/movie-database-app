@@ -3,14 +3,14 @@ import { useParams } from 'react-router-dom';
 import api from '../services/api';
 
 const MovieDetail = () => {
-  const { id } = useParams();
+  const { movieId } = useParams();
   const [movie, setMovie] = useState(null);
 
   useEffect(() => {
-    api.get(`movies/${id}`)
+    api.get(`movies/${movieId}`)
       .then(response => setMovie(response.data))
       .catch(error => console.error('Error fetching movie:', error));
-  }, [id]);
+  }, [movieId]);
 
   return (
     <div>

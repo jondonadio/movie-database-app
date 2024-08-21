@@ -18,10 +18,10 @@ function MoviesList() {
     fetchMovies();
   }, []);  // Empty dependency array means this effect runs once on component mount
 
-  const handleDelete = async (id) => {
+  const handleDelete = async (movieId) => {
     try {
-      await axios.delete(`https://localhost:7168/api/movies/${id}`);
-      setMovies(movies.filter(movie => movie.id !== id));  // Remove deleted movie from the state
+      await axios.delete(`https://localhost:7168/api/movies/${movieId}`);
+      setMovies(movies.filter(movie => movie.movieId !== movieId));  // Remove deleted movie from the state
     } catch (error) {
       console.error('There was an error deleting the movie!', error);
     }
@@ -42,14 +42,14 @@ function MoviesList() {
         </thead>
         <tbody>
           {movies.map(movie => (
-            <tr key={movie.id}>
+            <tr key={movie.movieId}>
               <td>{movie.title}</td>
               <td>{movie.genre}</td>
               <td>{movie.releaseDate}</td>
               <td>{movie.rating}</td>
               <td>
-                <Link className="btn btn-primary btn-sm mr-2" to={`/edit/${movie.id}`}>Edit</Link>
-                <button className="btn btn-danger btn-sm" onClick={() => handleDelete(movie.id)}>Delete</button>
+                <Link className="btn btn-primary btn-sm mr-2" to={`/edit/${movie.movieId}`}>Edit</Link>
+                <button className="btn btn-danger btn-sm" onClick={() => handleDelete(movie.movieId)}>Delete</button>
               </td>
             </tr>
           ))}

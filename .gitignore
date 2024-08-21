@@ -1,4 +1,4 @@
 /*/node_modules
 ./*/DS_Store
-/server/MovieDatabaseApp/bin
-/server/MovieDatabaseApp/obj
+/server/MovieDatabaseApp/bin/*
+/server/MovieDatabaseApp/obj/*

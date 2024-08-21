@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 function EditMovie() {
-  const { id } = useParams();
+  const { movieId } = useParams();
   const [title, setTitle] = useState('');
   const [genre, setGenre] = useState('');
   const [releaseDate, setReleaseDate] = useState('');
@@ -12,7 +12,7 @@ function EditMovie() {
   useEffect(() => {
     const fetchMovie = async () => {
       try {
-        const response = await axios.get(`https://localhost:7168/api/movies/${id}`);
+        const response = await axios.get(`https://localhost:7168/api/movies/${movieId}`);
         const movie = response.data;
         setTitle(movie.title);
         setGenre(movie.genre);
@@ -24,7 +24,7 @@ function EditMovie() {
     };
 
     fetchMovie();
-  }, [id]);
+  }, [movieId]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

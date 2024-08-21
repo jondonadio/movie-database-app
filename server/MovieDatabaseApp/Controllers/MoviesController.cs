@@ -27,11 +27,11 @@ namespace MovieDatabaseApp.Controllers
         }
 
         // GET api/Movies/5
-        [HttpGet("{id}")] // Maps this method to HTTP GET with a route parameter
-        public async Task<ActionResult<Movie>> GetMovie(int id)
+        [HttpGet("{movieId}")] // Maps this method to HTTP GET with a route parameter
+        public async Task<ActionResult<Movie>> GetMovie(int MovieId)
         {
             // Finds a movie by its ID asynchronously
-            var movie = await _context.Movies.FindAsync(id);
+            var movie = await _context.Movies.FindAsync(MovieId);
 
             if (movie == null)
             {
@@ -49,14 +49,14 @@ namespace MovieDatabaseApp.Controllers
             await _context.SaveChangesAsync();
 
             // Returns a 201 Created response
-            return CreatedAtAction("GetMovie", new { id = movie.Id }, movie);
+            return CreatedAtAction("GetMovie", new { id = movie.MovieId }, movie);
         }
 
         // PUT api/Movies/5
-        [HttpPut("{id}")]
-        public async Task<ActionResult> PutMovie(int id, Movie movie)
+        [HttpPut("{MovieId}")]
+        public async Task<ActionResult> PutMovie(int MovieId, Movie movie)
         {
-            if (id != movie.Id)
+            if (MovieId != movie.MovieId)
             {
                 return BadRequest(); // Returns a 400 Bad Request response
             }
@@ -69,7 +69,7 @@ namespace MovieDatabaseApp.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!MovieExists(id))
+                if (!MovieExists(MovieId))
                 {
                     return NotFound();
                 }
@@ -82,10 +82,10 @@ namespace MovieDatabaseApp.Controllers
         }
 
         // DELETE api/Movies/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteMovie(int id)
+        [HttpDelete("{MovieId}")]
+        public async Task<IActionResult> DeleteMovie(int MovieId)
         {
-            var movie = await _context.Movies.FindAsync(id);
+            var movie = await _context.Movies.FindAsync(MovieId);
             if (movie == null)
             {
                 return NotFound();
@@ -97,9 +97,9 @@ namespace MovieDatabaseApp.Controllers
             return NoContent();
         }
 
-        private bool MovieExists(int id)
+        private bool MovieExists(int MovieId)
         {
-            return _context.Movies.Any(e => e.Id == id);
+            return _context.Movies.Any(e => e.MovieId == MovieId);
         }
     }
 }

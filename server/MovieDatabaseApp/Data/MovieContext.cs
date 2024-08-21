@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore; // Import EF Core namespace for database context
+﻿using Microsoft.EntityFrameworkCore; // Import EF Core namespace for database context
 using MovieDatabaseApp.Models; // Import the namespace for your data models
 
 namespace MovieDatabaseApp.Data
 {
     // The DbContext class for interacting with the SQL Server database
-    public class MovieContext : IdentityDbContext<ApplicationUser>
+    public class MovieContext : DbContext
     {
         // Constructor to initialize the context with options
         public MovieContext(DbContextOptions<MovieContext> options) : base(options) { }
