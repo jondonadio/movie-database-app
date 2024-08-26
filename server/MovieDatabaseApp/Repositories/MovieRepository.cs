@@ -27,7 +27,7 @@ namespace MovieDatabaseApp.Repositories
 
             if (movie == null) 
             {
-                throw new KeyNotFoundException($"Movie with ID {movieId} not found in database.")
+                throw new KeyNotFoundException($"Movie with ID {movieId} not found in database.");
             }
 
             return movie;

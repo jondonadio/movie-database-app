@@ -28,10 +28,10 @@ function EditMovie() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const updatedMovie = { id, title, genre, releaseDate, rating };
+    const updatedMovie = { movieId, title, genre, releaseDate, rating };
 
     try {
-      await axios.put(`https://localhost:7168/api/movies/${id}`, updatedMovie);
+      await axios.put(`https://localhost:7168/api/movies/${movieId}`, updatedMovie);
       alert('Movie updated successfully');
     } catch (error) {
       console.error('There was an error updating the movie!', error);
