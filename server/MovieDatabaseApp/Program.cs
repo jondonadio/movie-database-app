@@ -1,9 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Identity;
 using MovieDatabaseApp.Data;
-using MovieDatabaseApp.Models;
+using MovieDatabaseApp.Interfaces;
+using MovieDatabaseApp.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,12 +11,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<MovieContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add Identity services
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<MovieContext>()
-    .AddDefaultTokenProviders();
+// Register the repository with dependency injection
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
-builder.Services.AddControllers();
+// Add Swagger services
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieDatabaseApp", Version = "v1" });
+});
 
 // Add CORS services
 builder.Services.AddCors(options => {
@@ -27,13 +29,6 @@ builder.Services.AddCors(options => {
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
-});
-
-// Add Swagger services
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieDatabaseApp", Version = "v1" });
 });
 
 var app = builder.Build();
@@ -50,7 +45,6 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowReactApp"); // Enable CORS with the specified policy
 
-app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
