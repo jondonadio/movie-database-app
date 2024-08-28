@@ -61,7 +61,7 @@ namespace MovieDatabaseApp.Controllers
             return NoContent(); // Returns a 204 No Content response indicating success
         }
 
-        [HttpDelete("{MovieId}")]
+        [HttpPost("delete/{MovieId}")]
         public async Task<IActionResult> DeleteMovie(int MovieId)
         {
             var movie = await _context.GetMovieByIdAsync(MovieId);

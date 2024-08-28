@@ -20,7 +20,7 @@ function MoviesList() {
 
   const handleDelete = async (movieId) => {
     try {
-      await axios.delete(`https://localhost:7168/api/movies/${movieId}`);
+      await axios.post(`https://localhost:7168/api/movies/delete/${movieId}`);
       setMovies(movies.filter(movie => movie.movieId !== movieId));  // Remove deleted movie from the state
     } catch (error) {
       console.error('There was an error deleting the movie!', error);
