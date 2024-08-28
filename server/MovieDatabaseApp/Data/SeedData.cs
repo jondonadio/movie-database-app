@@ -24,7 +24,7 @@ namespace MovieDatabaseApp.Data
             if (context.Movies.Any())
             {
                 logger.LogInformation("Database already seeded.");
-                return;   // DB has been seeded
+                return; 
             }
 
             try

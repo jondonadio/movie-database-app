@@ -11,12 +11,14 @@ namespace MovieDatabaseApp.Controllers
     [ApiController] // Marks class as an API controller
     public class MoviesController : ControllerBase
     {
-        private readonly IMovieRepository _context; // Dependency injection of the repository
+        // Dependency injection of the repository
+        private readonly IMovieRepository _context; 
 
         // Constructor to inject the MovieContext dependency.
         public MoviesController(IMovieRepository context)
         {
-            _context = context; // Assigns the injected context to a private field
+            // Assigns the injected context to a private field
+            _context = context; 
         }
 
         [HttpGet] 
@@ -26,14 +28,16 @@ namespace MovieDatabaseApp.Controllers
             return Ok(movies);
         }
 
-        [HttpGet("{movieId}")] // Maps this method to HTTP GET with a route parameter
+        // Maps this method to HTTP GET with a route parameter
+        [HttpGet("{movieId}")]        
         public async Task<ActionResult<Movie>> GetMovie(int MovieId)
         {
             var movie = await _context.GetMovieByIdAsync(MovieId);
 
             if (movie == null)
             {
-                return NotFound(); // Returns a 404 Not Found response
+                // Returns a 404 Not Found response
+                return NotFound(); 
             }
 
             return Ok(movie);
@@ -54,11 +58,13 @@ namespace MovieDatabaseApp.Controllers
         {
             if (MovieId != movie.MovieId)
             {
-                return BadRequest(); // Returns a 400 Bad Request response
+                // Returns a 400 Bad Request response
+                return BadRequest(); 
             }
 
-            await _context.UpdateMovieAsync(movie);   
-            return NoContent(); // Returns a 204 No Content response indicating success
+            await _context.UpdateMovieAsync(movie);
+            // Returns a 204 No Content response indicating success   
+            return NoContent();
         }
 
         [HttpPost("delete/{MovieId}")]

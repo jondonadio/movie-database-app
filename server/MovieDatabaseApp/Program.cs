@@ -7,7 +7,6 @@ using MovieDatabaseApp.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddDbContext<MovieContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -25,7 +24,8 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowReactApp",
         builder => {
-            builder.WithOrigins("http://localhost:3000") // Add the correct origin for your React app
+            // React frontend origin
+            builder.WithOrigins("http://localhost:3000") 
                    .AllowAnyHeader()
                    .AllowAnyMethod();
         });
@@ -43,14 +43,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowReactApp"); // Enable CORS with the specified policy
+// Enable CORS with the specified AllowReactApp policy
+app.UseCors("AllowReactApp"); 
 
 app.UseAuthorization();
 
 app.MapControllers();
 
 // Seed the Database
-
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

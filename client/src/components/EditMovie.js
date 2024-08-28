@@ -3,17 +3,22 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 function EditMovie() {
+  // Extract the movieId from the URL parameters using React Router's useParams hook
   const { movieId } = useParams();
   const [title, setTitle] = useState('');
   const [genre, setGenre] = useState('');
   const [releaseDate, setReleaseDate] = useState('');
   const [rating, setRating] = useState('');
 
+  // useEffect hook to fetch movie data from the backend when the component mounts or when movieId changes
   useEffect(() => {
     const fetchMovie = async () => {
       try {
+        // Make axios GET request to backend api get movie by id endpoint
         const response = await axios.get(`https://localhost:7168/api/movies/${movieId}`);
         const movie = response.data;
+
+        // Set the state variables with the data received from the backend
         setTitle(movie.title);
         setGenre(movie.genre);
         setReleaseDate(movie.releaseDate);
@@ -31,6 +36,7 @@ function EditMovie() {
     const updatedMovie = { movieId, title, genre, releaseDate, rating };
 
     try {
+      // Make axios PUT request to backend api update movie endpoint
       await axios.put(`https://localhost:7168/api/movies/${movieId}`, updatedMovie);
       alert('Movie updated successfully');
     } catch (error) {

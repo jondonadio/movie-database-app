@@ -1,6 +1,4 @@
-﻿using System; // For DateTime type
-
-namespace MovieDatabaseApp.Models
+﻿namespace MovieDatabaseApp.Models
 {
     // The Movie model class represents the movie entity in the database
     public class Movie

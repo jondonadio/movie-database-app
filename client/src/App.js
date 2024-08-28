@@ -6,7 +6,7 @@ import EditMovie from './components/EditMovie';
 
 function App() {
   return (
-    <Router> {/* Wrap the app in Router to enable routing */}
+    <Router>
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link className="navbar-brand" to="/">Movie Database</Link>
