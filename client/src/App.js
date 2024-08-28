@@ -22,7 +22,7 @@ function App() {
           </div>
         </nav>
         <div className="container mt-4">
-          <Routes> {/* Routing configuration */}
+          <Routes>
             <Route path="/" element={<MoviesList />} />
             <Route path="/add" element={<AddMovie />} />
             <Route path="/edit/:id" element={<EditMovie />} />
