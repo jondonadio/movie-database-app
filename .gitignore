@@ -1,7 +1,7 @@
-node_modules/
-.DS_Store
-/server/MovieDatabaseApp/bin/
-/server/MovieDatabaseApp/obj/
+**/client/node_modules/
+*.DS_Store
+**/server/MovieDatabaseApp/bin/
+**/server/MovieDatabaseApp/obj/
 **/bin/
 **/obj
-/server/.vs/
+**/server/.vs/
