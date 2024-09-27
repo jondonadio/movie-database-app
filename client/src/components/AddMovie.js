@@ -12,7 +12,7 @@ function AddMovie() {
     const newMovie = { title, genre, releaseDate, rating };
 
     try {
-      await axios.post('https://localhost:7168/api/movies', newMovie);
+      await axios.post('https://jonmoviedatabaseapp.azurewebsites.net/api/movies', newMovie);
       alert('Movie added successfully');
     } catch (error) {
       console.error('There was an error adding the movie!', error);

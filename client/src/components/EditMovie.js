@@ -15,7 +15,7 @@ function EditMovie() {
     const fetchMovie = async () => {
       try {
         // Make axios GET request to backend api get movie by id endpoint
-        const response = await axios.get(`https://localhost:7168/api/movies/${movieId}`);
+        const response = await axios.get(`https://jonmoviedatabaseapp.azurewebsites.net/api/movies/${movieId}`);
         const movie = response.data;
 
         // Set the state variables with the data received from the backend
@@ -37,7 +37,7 @@ function EditMovie() {
 
     try {
       // Make axios PUT request to backend api update movie endpoint
-      await axios.put(`https://localhost:7168/api/movies/${movieId}`, updatedMovie);
+      await axios.put(`https://jonmoviedatabaseapp.azurewebsites.net/api/movies/${movieId}`, updatedMovie);
       alert('Movie updated successfully');
     } catch (error) {
       console.error('There was an error updating the movie!', error);

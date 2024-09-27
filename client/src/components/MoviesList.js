@@ -10,7 +10,7 @@ function MoviesList() {
     const fetchMovies = async () => {
       try {
         // Make axios GET request to backend api get all movies endpoint
-        const response = await axios.get('https://localhost:7168/api/movies'); 
+        const response = await axios.get('https://jonmoviedatabaseapp.azurewebsites.net/api/movies'); 
         // Update component state with fetched movies
         setMovies(response.data); 
       } catch (error) {
@@ -23,7 +23,7 @@ function MoviesList() {
   const handleDelete = async (movieId) => {
     try {
       // Make axios POST request to backend api delete movie endpoint
-      await axios.post(`https://localhost:7168/api/movies/delete/${movieId}`);
+      await axios.post(`https://jonmoviedatabaseapp.azurewebsites.net/api/movies/delete/${movieId}`);
       // Remove deleted movie from the state
       setMovies(movies.filter(movie => movie.movieId !== movieId)); 
     } catch (error) {
