@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movie-database-app/static/css/main.36ffff30.css",
+    "main.js": "/movie-database-app/static/js/main.e893dc60.js",
+    "static/js/453.e2b0524e.chunk.js": "/movie-database-app/static/js/453.e2b0524e.chunk.js",
+    "index.html": "/movie-database-app/index.html",
+    "main.36ffff30.css.map": "/movie-database-app/static/css/main.36ffff30.css.map",
+    "main.e893dc60.js.map": "/movie-database-app/static/js/main.e893dc60.js.map",
+    "453.e2b0524e.chunk.js.map": "/movie-database-app/static/js/453.e2b0524e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ffff30.css",
+    "static/js/main.e893dc60.js"
+  ]
+}
